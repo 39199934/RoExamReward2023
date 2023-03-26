@@ -13,8 +13,9 @@ struct RoExamReward2023App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(DatabaseStore())
         }
     }
 }

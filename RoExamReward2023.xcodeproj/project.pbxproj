@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD7EA3A829C9967400C57CC0 /* SubjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7EA3A729C9967400C57CC0 /* SubjectsView.swift */; };
+		FD7EA3AA29C99FEB00C57CC0 /* SubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7EA3A929C99FEB00C57CC0 /* SubjectView.swift */; };
+		FD7EA3AD29C9A87700C57CC0 /* ScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7EA3AC29C9A87700C57CC0 /* ScoresView.swift */; };
+		FD7EA3AF29C9A90200C57CC0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7EA3AE29C9A90200C57CC0 /* MainView.swift */; };
+		FD7EA3B129C9BE7300C57CC0 /* AppendNewScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7EA3B029C9BE7300C57CC0 /* AppendNewScoreView.swift */; };
+		FD7EA3B329C9C2A200C57CC0 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7EA3B229C9C2A200C57CC0 /* ScoreView.swift */; };
 		FDB2BDA929C8785C00F2197B /* RoExamReward2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2BDA829C8785C00F2197B /* RoExamReward2023App.swift */; };
 		FDB2BDAB29C8785C00F2197B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2BDAA29C8785C00F2197B /* Persistence.swift */; };
 		FDB2BDAE29C8785C00F2197B /* RoExamReward2023.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDB2BDAC29C8785C00F2197B /* RoExamReward2023.xcdatamodeld */; };
 		FDB2BDB029C8785C00F2197B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2BDAF29C8785C00F2197B /* ContentView.swift */; };
 		FDB2BDB229C8786000F2197B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB2BDB129C8786000F2197B /* Assets.xcassets */; };
 		FDB2BDB629C8786000F2197B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB2BDB529C8786000F2197B /* Preview Assets.xcassets */; };
+		FDB2BDBE29C87CE800F2197B /* ExamScoreProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2BDBD29C87CE800F2197B /* ExamScoreProtocol.swift */; };
+		FDB2BDC429C8A96900F2197B /* SubjectExamReward+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2BDC029C8A96900F2197B /* SubjectExamReward+CoreDataClass.swift */; };
+		FDB2BDC529C8A96900F2197B /* SubjectExamReward+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2BDC129C8A96900F2197B /* SubjectExamReward+CoreDataProperties.swift */; };
+		FDB2BDC629C8A96900F2197B /* Score+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2BDC229C8A96900F2197B /* Score+CoreDataClass.swift */; };
+		FDB2BDC729C8A96900F2197B /* Score+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2BDC329C8A96900F2197B /* Score+CoreDataProperties.swift */; };
+		FDB2BDC929C8A98900F2197B /* DatabaseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2BDC829C8A98900F2197B /* DatabaseStore.swift */; };
+		FDB2BDCC29C8ACC500F2197B /* AppendNewSubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2BDCB29C8ACC500F2197B /* AppendNewSubjectView.swift */; };
+		FDB2BDCE29C8AED500F2197B /* NilDataEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2BDCD29C8AED500F2197B /* NilDataEditView.swift */; };
+		FDB2BDD029C952C000F2197B /* StringEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB2BDCF29C952C000F2197B /* StringEditView.swift */; };
+		FDCD396C29CD877600DD3142 /* ScoreShowAndEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCD396B29CD877600DD3142 /* ScoreShowAndEditView.swift */; };
+		FDDDA16F29CFE58500516F97 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDDA16E29CFE58500516F97 /* RewardsView.swift */; };
+		FDF098EF29D0536400C8C1FB /* ScoresBarMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF098EE29D0536400C8C1FB /* ScoresBarMarkView.swift */; };
+		FDF098F129D0669C00C8C1FB /* ScoresListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF098F029D0669C00C8C1FB /* ScoresListItemView.swift */; };
+		FDF098F329D079F800C8C1FB /* PayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF098F229D079F800C8C1FB /* PayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD7EA3A729C9967400C57CC0 /* SubjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsView.swift; sourceTree = "<group>"; };
+		FD7EA3A929C99FEB00C57CC0 /* SubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectView.swift; sourceTree = "<group>"; };
+		FD7EA3AC29C9A87700C57CC0 /* ScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresView.swift; sourceTree = "<group>"; };
+		FD7EA3AE29C9A90200C57CC0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FD7EA3B029C9BE7300C57CC0 /* AppendNewScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendNewScoreView.swift; sourceTree = "<group>"; };
+		FD7EA3B229C9C2A200C57CC0 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		FDB2BDA529C8785C00F2197B /* RoExamReward2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoExamReward2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB2BDA829C8785C00F2197B /* RoExamReward2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoExamReward2023App.swift; sourceTree = "<group>"; };
 		FDB2BDAA29C8785C00F2197B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -24,6 +50,20 @@
 		FDB2BDB129C8786000F2197B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDB2BDB329C8786000F2197B /* RoExamReward2023.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoExamReward2023.entitlements; sourceTree = "<group>"; };
 		FDB2BDB529C8786000F2197B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDB2BDBD29C87CE800F2197B /* ExamScoreProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamScoreProtocol.swift; sourceTree = "<group>"; };
+		FDB2BDC029C8A96900F2197B /* SubjectExamReward+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SubjectExamReward+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FDB2BDC129C8A96900F2197B /* SubjectExamReward+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SubjectExamReward+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FDB2BDC229C8A96900F2197B /* Score+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Score+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FDB2BDC329C8A96900F2197B /* Score+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Score+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FDB2BDC829C8A98900F2197B /* DatabaseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseStore.swift; sourceTree = "<group>"; };
+		FDB2BDCB29C8ACC500F2197B /* AppendNewSubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppendNewSubjectView.swift; sourceTree = "<group>"; };
+		FDB2BDCD29C8AED500F2197B /* NilDataEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NilDataEditView.swift; sourceTree = "<group>"; };
+		FDB2BDCF29C952C000F2197B /* StringEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEditView.swift; sourceTree = "<group>"; };
+		FDCD396B29CD877600DD3142 /* ScoreShowAndEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreShowAndEditView.swift; sourceTree = "<group>"; };
+		FDDDA16E29CFE58500516F97 /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
+		FDF098EE29D0536400C8C1FB /* ScoresBarMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresBarMarkView.swift; sourceTree = "<group>"; };
+		FDF098F029D0669C00C8C1FB /* ScoresListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresListItemView.swift; sourceTree = "<group>"; };
+		FDF098F229D079F800C8C1FB /* PayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +77,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD7EA3AB29C9A84800C57CC0 /* Score */ = {
+			isa = PBXGroup;
+			children = (
+				FD7EA3AC29C9A87700C57CC0 /* ScoresView.swift */,
+				FD7EA3B029C9BE7300C57CC0 /* AppendNewScoreView.swift */,
+				FD7EA3B229C9C2A200C57CC0 /* ScoreView.swift */,
+				FDCD396B29CD877600DD3142 /* ScoreShowAndEditView.swift */,
+			);
+			path = Score;
+			sourceTree = "<group>";
+		};
 		FDB2BD9C29C8785C00F2197B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +107,8 @@
 		FDB2BDA729C8785C00F2197B /* RoExamReward2023 */ = {
 			isa = PBXGroup;
 			children = (
+				FDB2BDBF29C8A8EC00F2197B /* Database */,
+				FDB2BDBC29C878A900F2197B /* ExamScores */,
 				FDB2BDA829C8785C00F2197B /* RoExamReward2023App.swift */,
 				FDB2BDAA29C8785C00F2197B /* Persistence.swift */,
 				FDB2BDAF29C8785C00F2197B /* ContentView.swift */,
@@ -63,6 +116,9 @@
 				FDB2BDB329C8786000F2197B /* RoExamReward2023.entitlements */,
 				FDB2BDAC29C8785C00F2197B /* RoExamReward2023.xcdatamodeld */,
 				FDB2BDB429C8786000F2197B /* Preview Content */,
+				FDB2BDCD29C8AED500F2197B /* NilDataEditView.swift */,
+				FDB2BDCF29C952C000F2197B /* StringEditView.swift */,
+				FD7EA3AE29C9A90200C57CC0 /* MainView.swift */,
 			);
 			path = RoExamReward2023;
 			sourceTree = "<group>";
@@ -73,6 +129,50 @@
 				FDB2BDB529C8786000F2197B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDB2BDBC29C878A900F2197B /* ExamScores */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2BDBD29C87CE800F2197B /* ExamScoreProtocol.swift */,
+			);
+			path = ExamScores;
+			sourceTree = "<group>";
+		};
+		FDB2BDBF29C8A8EC00F2197B /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				FDDDA16D29CFE56D00516F97 /* ItemViews */,
+				FD7EA3AB29C9A84800C57CC0 /* Score */,
+				FDB2BDCA29C8AC7000F2197B /* SubjectExamReward */,
+				FDB2BDC029C8A96900F2197B /* SubjectExamReward+CoreDataClass.swift */,
+				FDB2BDC129C8A96900F2197B /* SubjectExamReward+CoreDataProperties.swift */,
+				FDB2BDC229C8A96900F2197B /* Score+CoreDataClass.swift */,
+				FDB2BDC329C8A96900F2197B /* Score+CoreDataProperties.swift */,
+				FDB2BDC829C8A98900F2197B /* DatabaseStore.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		FDB2BDCA29C8AC7000F2197B /* SubjectExamReward */ = {
+			isa = PBXGroup;
+			children = (
+				FDB2BDCB29C8ACC500F2197B /* AppendNewSubjectView.swift */,
+				FD7EA3A729C9967400C57CC0 /* SubjectsView.swift */,
+				FD7EA3A929C99FEB00C57CC0 /* SubjectView.swift */,
+			);
+			path = SubjectExamReward;
+			sourceTree = "<group>";
+		};
+		FDDDA16D29CFE56D00516F97 /* ItemViews */ = {
+			isa = PBXGroup;
+			children = (
+				FDDDA16E29CFE58500516F97 /* RewardsView.swift */,
+				FDF098EE29D0536400C8C1FB /* ScoresBarMarkView.swift */,
+				FDF098F029D0669C00C8C1FB /* ScoresListItemView.swift */,
+				FDF098F229D079F800C8C1FB /* PayView.swift */,
+			);
+			path = ItemViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,10 +245,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7EA3B129C9BE7300C57CC0 /* AppendNewScoreView.swift in Sources */,
+				FD7EA3B329C9C2A200C57CC0 /* ScoreView.swift in Sources */,
+				FDB2BDC529C8A96900F2197B /* SubjectExamReward+CoreDataProperties.swift in Sources */,
 				FDB2BDAE29C8785C00F2197B /* RoExamReward2023.xcdatamodeld in Sources */,
+				FDB2BDC929C8A98900F2197B /* DatabaseStore.swift in Sources */,
 				FDB2BDA929C8785C00F2197B /* RoExamReward2023App.swift in Sources */,
+				FDB2BDD029C952C000F2197B /* StringEditView.swift in Sources */,
+				FD7EA3AD29C9A87700C57CC0 /* ScoresView.swift in Sources */,
+				FDDDA16F29CFE58500516F97 /* RewardsView.swift in Sources */,
+				FDB2BDBE29C87CE800F2197B /* ExamScoreProtocol.swift in Sources */,
+				FDB2BDC629C8A96900F2197B /* Score+CoreDataClass.swift in Sources */,
+				FD7EA3AA29C99FEB00C57CC0 /* SubjectView.swift in Sources */,
 				FDB2BDB029C8785C00F2197B /* ContentView.swift in Sources */,
+				FDB2BDC429C8A96900F2197B /* SubjectExamReward+CoreDataClass.swift in Sources */,
+				FD7EA3AF29C9A90200C57CC0 /* MainView.swift in Sources */,
+				FDCD396C29CD877600DD3142 /* ScoreShowAndEditView.swift in Sources */,
+				FD7EA3A829C9967400C57CC0 /* SubjectsView.swift in Sources */,
+				FDB2BDC729C8A96900F2197B /* Score+CoreDataProperties.swift in Sources */,
+				FDF098EF29D0536400C8C1FB /* ScoresBarMarkView.swift in Sources */,
 				FDB2BDAB29C8785C00F2197B /* Persistence.swift in Sources */,
+				FDB2BDCE29C8AED500F2197B /* NilDataEditView.swift in Sources */,
+				FDF098F329D079F800C8C1FB /* PayView.swift in Sources */,
+				FDF098F129D0669C00C8C1FB /* ScoresListItemView.swift in Sources */,
+				FDB2BDCC29C8ACC500F2197B /* AppendNewSubjectView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +397,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "考试奖励";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -315,6 +436,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "考试奖励";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
